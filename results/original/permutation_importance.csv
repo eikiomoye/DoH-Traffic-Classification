@@ -1,0 +1,88 @@
+model,feature,importance_mean,importance_std,scoring,held_out_sample_records,permutation_repeats,seed
+Logistic Regression,Duration,0.5052112628474587,0.0010753599267478743,average_precision,20000,3,42
+Logistic Regression,FlowBytesSent,0.17741762293806318,0.003787912392017833,average_precision,20000,3,42
+Logistic Regression,FlowSentRate,0.000623460354355491,6.751539010656511e-05,average_precision,20000,3,42
+Logistic Regression,FlowBytesReceived,0.027260361215488027,0.0010014885025759136,average_precision,20000,3,42
+Logistic Regression,FlowReceivedRate,0.0014867602920466776,0.0005263834662669596,average_precision,20000,3,42
+Logistic Regression,PacketLengthVariance,0.5058207347129978,0.001610628513458041,average_precision,20000,3,42
+Logistic Regression,PacketLengthStandardDeviation,0.4632412954720861,0.0037949884561982433,average_precision,20000,3,42
+Logistic Regression,PacketLengthMean,0.3640420569818765,0.004107331800881927,average_precision,20000,3,42
+Logistic Regression,PacketLengthMedian,0.012100201384976325,0.000750653048798945,average_precision,20000,3,42
+Logistic Regression,PacketLengthMode,0.0001692761598639884,9.224913546878378e-05,average_precision,20000,3,42
+Logistic Regression,PacketLengthSkewFromMedian,0.09357827553694957,0.0038833165014261852,average_precision,20000,3,42
+Logistic Regression,PacketLengthSkewFromMode,0.004461130563363762,0.0006858202407482605,average_precision,20000,3,42
+Logistic Regression,PacketLengthCoefficientofVariation,0.00416707659915827,0.0001657925664223344,average_precision,20000,3,42
+Logistic Regression,PacketTimeVariance,0.05462140441122262,8.032850731835494e-05,average_precision,20000,3,42
+Logistic Regression,PacketTimeStandardDeviation,0.08239476846618095,0.0012393044745210517,average_precision,20000,3,42
+Logistic Regression,PacketTimeMean,0.02156927030132731,0.00022318780241477033,average_precision,20000,3,42
+Logistic Regression,PacketTimeMedian,0.04336467739690497,0.0005697216786627177,average_precision,20000,3,42
+Logistic Regression,PacketTimeMode,0.0037561748167801814,0.00035475189479191037,average_precision,20000,3,42
+Logistic Regression,PacketTimeSkewFromMedian,0.006686293602214954,0.00034662614450293864,average_precision,20000,3,42
+Logistic Regression,PacketTimeSkewFromMode,0.0009566513338154318,7.54522393407277e-05,average_precision,20000,3,42
+Logistic Regression,PacketTimeCoefficientofVariation,0.01083239465645025,0.0006729425072324806,average_precision,20000,3,42
+Logistic Regression,ResponseTimeTimeVariance,0.008945469352818333,0.0003816964567132811,average_precision,20000,3,42
+Logistic Regression,ResponseTimeTimeStandardDeviation,0.05012978097843679,0.0007332488735874206,average_precision,20000,3,42
+Logistic Regression,ResponseTimeTimeMean,6.976704420994888e-06,1.162769370338517e-05,average_precision,20000,3,42
+Logistic Regression,ResponseTimeTimeMedian,0.04303673708972544,0.0008852047448980389,average_precision,20000,3,42
+Logistic Regression,ResponseTimeTimeMode,0.002066986764781712,0.0004644365344266069,average_precision,20000,3,42
+Logistic Regression,ResponseTimeTimeSkewFromMedian,0.00987067028760206,0.0005437503836849883,average_precision,20000,3,42
+Logistic Regression,ResponseTimeTimeSkewFromMode,0.001329905962314822,0.00025383312132133375,average_precision,20000,3,42
+Logistic Regression,ResponseTimeTimeCoefficientofVariation,0.15737723423635763,0.005465530200220644,average_precision,20000,3,42
+Random Forest,Duration,-0.0004460239751481095,0.00011220812530508015,average_precision,20000,3,42
+Random Forest,FlowBytesSent,0.0005588657124325028,7.636090128900652e-05,average_precision,20000,3,42
+Random Forest,FlowSentRate,-0.00044155930137242577,6.673970990751095e-05,average_precision,20000,3,42
+Random Forest,FlowBytesReceived,0.00058219447614416,0.00013556039302752945,average_precision,20000,3,42
+Random Forest,FlowReceivedRate,-0.0003929512654306337,6.877801681004836e-05,average_precision,20000,3,42
+Random Forest,PacketLengthVariance,0.0009551684021951538,7.262584502433745e-05,average_precision,20000,3,42
+Random Forest,PacketLengthStandardDeviation,0.0007923750700395601,0.00014013049884866718,average_precision,20000,3,42
+Random Forest,PacketLengthMean,0.001398257093808512,7.275281597887474e-05,average_precision,20000,3,42
+Random Forest,PacketLengthMedian,0.000691044853662115,7.902496096602302e-05,average_precision,20000,3,42
+Random Forest,PacketLengthMode,0.2878796767602291,0.006468090606143009,average_precision,20000,3,42
+Random Forest,PacketLengthSkewFromMedian,0.0003111191693964492,6.918634437256251e-05,average_precision,20000,3,42
+Random Forest,PacketLengthSkewFromMode,0.00029734891690395376,8.97087728109034e-05,average_precision,20000,3,42
+Random Forest,PacketLengthCoefficientofVariation,0.0003582120134009159,3.292893258663125e-05,average_precision,20000,3,42
+Random Forest,PacketTimeVariance,-0.0003689191861754315,0.0001047379870616555,average_precision,20000,3,42
+Random Forest,PacketTimeStandardDeviation,-0.0004033281112244917,0.0001605844558769318,average_precision,20000,3,42
+Random Forest,PacketTimeMean,-0.0004397326893927171,5.9305553020709015e-05,average_precision,20000,3,42
+Random Forest,PacketTimeMedian,-0.000512652054838377,8.156563366341042e-05,average_precision,20000,3,42
+Random Forest,PacketTimeMode,8.750482710266165e-05,1.633359030418836e-05,average_precision,20000,3,42
+Random Forest,PacketTimeSkewFromMedian,-0.00011479713021485723,0.00010631957802222166,average_precision,20000,3,42
+Random Forest,PacketTimeSkewFromMode,-0.00022981153487326247,8.6072738238923e-05,average_precision,20000,3,42
+Random Forest,PacketTimeCoefficientofVariation,-7.33087659635645e-05,0.00012737855942808644,average_precision,20000,3,42
+Random Forest,ResponseTimeTimeVariance,0.0004228224018840339,6.182117295925703e-05,average_precision,20000,3,42
+Random Forest,ResponseTimeTimeStandardDeviation,0.00023862633215724718,6.166300194607036e-05,average_precision,20000,3,42
+Random Forest,ResponseTimeTimeMean,-0.0005145765482173678,7.520492810051862e-05,average_precision,20000,3,42
+Random Forest,ResponseTimeTimeMedian,-0.00010392406240777863,6.643666908261539e-05,average_precision,20000,3,42
+Random Forest,ResponseTimeTimeMode,-0.000573964807100887,9.10589281971222e-05,average_precision,20000,3,42
+Random Forest,ResponseTimeTimeSkewFromMedian,1.411705567344601e-05,1.5150344086082075e-05,average_precision,20000,3,42
+Random Forest,ResponseTimeTimeSkewFromMode,0.00022014046064359563,5.89382860738176e-05,average_precision,20000,3,42
+Random Forest,ResponseTimeTimeCoefficientofVariation,-3.6496939604206227e-06,0.00017622793802251377,average_precision,20000,3,42
+XGBoost,Duration,9.652684971269328e-05,4.111210231778976e-05,average_precision,20000,3,42
+XGBoost,FlowBytesSent,0.0004650814446895968,5.742057007227494e-05,average_precision,20000,3,42
+XGBoost,FlowSentRate,3.5657468332080576e-05,1.5290324216836542e-05,average_precision,20000,3,42
+XGBoost,FlowBytesReceived,0.00016689982408949847,3.9329282507084264e-05,average_precision,20000,3,42
+XGBoost,FlowReceivedRate,0.0001065509498375065,1.7023030163385735e-05,average_precision,20000,3,42
+XGBoost,PacketLengthVariance,0.00017271772272997588,3.6133009334259834e-05,average_precision,20000,3,42
+XGBoost,PacketLengthStandardDeviation,4.936386188444016e-06,3.958408477747799e-06,average_precision,20000,3,42
+XGBoost,PacketLengthMean,0.002924462360399042,0.00010501971383069127,average_precision,20000,3,42
+XGBoost,PacketLengthMedian,0.00013507875297391614,5.8689036975361155e-05,average_precision,20000,3,42
+XGBoost,PacketLengthMode,0.31571198254570143,0.006880381537724399,average_precision,20000,3,42
+XGBoost,PacketLengthSkewFromMedian,3.8467590103582104e-05,1.588308808870944e-05,average_precision,20000,3,42
+XGBoost,PacketLengthSkewFromMode,4.264106002538348e-05,1.2041123194281437e-05,average_precision,20000,3,42
+XGBoost,PacketLengthCoefficientofVariation,0.0005378113975111898,7.664460256925652e-05,average_precision,20000,3,42
+XGBoost,PacketTimeVariance,2.9462549813360123e-05,1.4783431884919741e-05,average_precision,20000,3,42
+XGBoost,PacketTimeStandardDeviation,-7.120909112516098e-06,4.183153340651243e-06,average_precision,20000,3,42
+XGBoost,PacketTimeMean,5.775126164375699e-05,1.2197072435031874e-05,average_precision,20000,3,42
+XGBoost,PacketTimeMedian,2.6195790711428895e-05,5.062081970990573e-05,average_precision,20000,3,42
+XGBoost,PacketTimeMode,8.565808861956311e-06,3.3218165583969504e-06,average_precision,20000,3,42
+XGBoost,PacketTimeSkewFromMedian,1.4031466861482341e-05,1.1172249044107969e-05,average_precision,20000,3,42
+XGBoost,PacketTimeSkewFromMode,5.1614157187388855e-05,1.661644682212195e-05,average_precision,20000,3,42
+XGBoost,PacketTimeCoefficientofVariation,3.3588217754676464e-05,7.561669544226812e-06,average_precision,20000,3,42
+XGBoost,ResponseTimeTimeVariance,3.520833544823354e-06,6.989591775546834e-06,average_precision,20000,3,42
+XGBoost,ResponseTimeTimeStandardDeviation,1.7472449792924987e-06,2.4880094684190985e-06,average_precision,20000,3,42
+XGBoost,ResponseTimeTimeMean,4.334875422429274e-05,2.5904753840763936e-05,average_precision,20000,3,42
+XGBoost,ResponseTimeTimeMedian,0.0028845165574507745,8.362163569479722e-05,average_precision,20000,3,42
+XGBoost,ResponseTimeTimeMode,9.060707640166459e-05,1.5958471693874012e-05,average_precision,20000,3,42
+XGBoost,ResponseTimeTimeSkewFromMedian,-4.573609233227138e-06,5.042470580835499e-06,average_precision,20000,3,42
+XGBoost,ResponseTimeTimeSkewFromMode,5.442925398280174e-06,6.971349768099417e-07,average_precision,20000,3,42
+XGBoost,ResponseTimeTimeCoefficientofVariation,2.2831107256722955e-05,2.7082242598332962e-05,average_precision,20000,3,42

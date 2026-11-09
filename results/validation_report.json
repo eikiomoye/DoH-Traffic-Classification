@@ -1,0 +1,152 @@
+{
+  "scope": "arithmetic reconciliation of supplied saved outputs, not a new training run or verification of dataset bytes",
+  "checks": [
+    {
+      "check": "test seeds/models: exactly nine unique combinations",
+      "passed": true
+    },
+    {
+      "check": "CV: three unique folds per seed and model",
+      "passed": true
+    },
+    {
+      "check": "held-out partition sizes",
+      "passed": true
+    },
+    {
+      "check": "development class counts",
+      "passed": true
+    },
+    {
+      "check": "XGBoost class ratio",
+      "passed": true
+    },
+    {
+      "check": "all confusion totals equal held-out size",
+      "passed": true
+    },
+    {
+      "check": "confusion class totals match test partition",
+      "passed": true
+    },
+    {
+      "check": "confusion values are nonnegative integers",
+      "passed": true
+    },
+    {
+      "check": "accuracy independently recomputed from confusion counts",
+      "passed": true
+    },
+    {
+      "check": "precision_doh independently recomputed from confusion counts",
+      "passed": true
+    },
+    {
+      "check": "recall_doh independently recomputed from confusion counts",
+      "passed": true
+    },
+    {
+      "check": "false_positive_rate independently recomputed from confusion counts",
+      "passed": true
+    },
+    {
+      "check": "balanced_accuracy independently recomputed from confusion counts",
+      "passed": true
+    },
+    {
+      "check": "macro_f1 independently recomputed from confusion counts",
+      "passed": true
+    },
+    {
+      "check": "mcc independently recomputed from confusion counts",
+      "passed": true
+    },
+    {
+      "check": "summary contains all model/metric combinations exactly once",
+      "passed": true
+    },
+    {
+      "check": "test summary mean reconciles",
+      "passed": true
+    },
+    {
+      "check": "test summary standard_deviation reconciles",
+      "passed": true
+    },
+    {
+      "check": "test summary ci95_lower reconciles",
+      "passed": true
+    },
+    {
+      "check": "test summary ci95_upper reconciles",
+      "passed": true
+    },
+    {
+      "check": "test summary n_repetitions reconciles",
+      "passed": true
+    },
+    {
+      "check": "CV summary mean reconciles across nine folds per model",
+      "passed": true
+    },
+    {
+      "check": "CV summary std reconciles across nine folds per model",
+      "passed": true
+    },
+    {
+      "check": "summed confusion matrices reconcile",
+      "passed": true
+    },
+    {
+      "check": "29 unique feature summaries",
+      "passed": true
+    },
+    {
+      "check": "feature names match audit",
+      "passed": true
+    },
+    {
+      "check": "no constant features in supplied summary",
+      "passed": true
+    },
+    {
+      "check": "all reported feature ranges are finite",
+      "passed": true
+    },
+    {
+      "check": "87 unique permutation entries for the same 29 features",
+      "passed": true
+    },
+    {
+      "check": "permutation protocol: seed42 sample20000 repeats3 AP",
+      "passed": true
+    },
+    {
+      "check": "tree leading importance feature PacketLengthMode",
+      "passed": true
+    },
+    {
+      "check": "audit dimensions and class counts",
+      "passed": true
+    },
+    {
+      "check": "audit reports clean validation",
+      "passed": true
+    },
+    {
+      "check": "recorded dataset hash well formed",
+      "passed": true
+    },
+    {
+      "check": "metric ranges",
+      "passed": true
+    },
+    {
+      "check": "model times positive",
+      "passed": true
+    }
+  ],
+  "passed": 36,
+  "total": 36,
+  "dataset_sha256_recorded": "a6e20990d1ee21e1bb118bc4cf87eb886d26755ef5e271bb3b99bd8448009410"
+}

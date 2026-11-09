@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the associated paper. This package contains a reviewed derivative of author-supplied code; the edited version has not been benchmark-rerun."
+type: software
+title: "DoH Traffic Classification: Research Companion Materials"
+authors:
+  - family-names: Emmanuel
+    given-names: Ikiomoye Douglas
+preferred-citation:
+  type: article
+  title: "Comparative Classification of DNS-over-HTTPS Traffic on the CIRACIC-DoHBrw-2020 Dataset Using Logistic Regression, Random Forest and XGBoost"
+  authors:
+    - family-names: Emmanuel
+      given-names: Ikiomoye Douglas
+  journal: "Journal of Information Systems and Informatics"
+  volume: "8"
+  issue: "5"
+  start: "6503"
+  end: "6534"
+  year: 2026
+  month: 10
+  doi: "10.63158/journalisi.v8i5.1914"
+  url: "https://journal-isi.org/index.php/isi/article/view/1914"

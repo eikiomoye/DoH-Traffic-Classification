@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.env
+data/
+*.parquet
+*.pcap
+*.pcapng
+*.joblib
+*.pkl
+models/
+outputs/

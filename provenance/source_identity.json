@@ -1,0 +1,6 @@
+{
+  "source_notebook": "CIRA_DoH_Layer1_Fast_Experiment.ipynb",
+  "sha256": "f0d8d4ce48806c2f42bd7d0948a4835ad1139d82552e190c14fa538a7fbcb4a9",
+  "original_embedded_runner_sha256": "5eb7fa7e6c606a1bc10b9a11d00e0720cbd17ed624d4f86c47de4c9167b2c00a",
+  "status": "original bytes retained in uploaded notebook; extracted runner retained separately; cleaned code not benchmark-rerun"
+}

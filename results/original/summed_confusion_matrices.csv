@@ -1,0 +1,4 @@
+model,summed_tn,summed_fp,summed_fn,summed_tp
+Logistic Regression,396365,53911,20536,140660
+Random Forest,449793,483,1177,160019
+XGBoost,449300,976,1318,159878
